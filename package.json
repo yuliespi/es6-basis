@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "learning es6 project",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon async/3_callback_request.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,9 @@
     "nodemon": "^2.0.20"
   },
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "request": "^2.88.2",
+    "requets": "^0.0.1-security",
+    "xmlhttprequest": "^1.8.0"
   }
 }
