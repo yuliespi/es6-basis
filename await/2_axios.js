@@ -8,7 +8,7 @@ let config = {
 const f = async () =>{
     try{
       let response = await axios (config)
-      response.data.results.forEach(element => {
+      response.data.name.forEach(element => {
         console.log(`Tipo: ${element.name }`)
         console.log('+++++++++++++++++++++++')
       });

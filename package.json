@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon await/3_needle.js"
+    "dev": "nodemon evidencias/chistes.js"
   },
   "repository": {
     "type": "git",
