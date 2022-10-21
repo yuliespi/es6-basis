@@ -1,6 +1,6 @@
 //Promises simple
 
-/*let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+let XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 let endpoint ='https://palabras-aleatorias-public-api.herokuapp.com/joke/random'
 
@@ -39,10 +39,10 @@ get_data(endpoint)
     })
     .catch((status)=>{
         fallo(status)
-    })*/
+    })
 
 
-const axios = require('axios')
+/*const axios = require('axios')
 
 let config = {
     method:'get',
@@ -61,4 +61,4 @@ axios(config)
     })
     .catch((error)=>{
         console.error(error)
-    })
+    })*/
